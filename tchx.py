@@ -51,7 +51,7 @@ DATA_URL = 'https://d2l-data.s3-accelerate.amazonaws.com/'
 def set_notebook_plot():
     sns.set()
     sns.set_theme()
-    plts.style.use('dark_background')  # change when not using PyCharm
+    # plts.style.use('dark_background')  # comment this line when not using PyCharm
     plts.rcParams['axes.facecolor'] = 'none'
 
 
